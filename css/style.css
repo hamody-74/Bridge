@@ -957,6 +957,7 @@ footer .container .footer-footer .social>i:not(:last-child) {
 /* End Of Footer */
 
 @media (min-width: 1200px) {
+
     section,
     header,
     footer {
@@ -983,14 +984,8 @@ footer .container .footer-footer .social>i:not(:last-child) {
         width: calc(100% - 388px);
     }
 
-    .newsletter .container {
-        flex-wrap: nowrap;
-    }
-
-    .newsletter .info {
-        flex-wrap: nowrap;
-    }
-
+    .newsletter .container,
+    .newsletter .info,
     .questions .container {
         flex-wrap: nowrap;
     }
@@ -1003,6 +998,7 @@ footer .container .footer-footer .social>i:not(:last-child) {
 }
 
 @media (max-width: 1199px) {
+
     section,
     header,
     footer {
@@ -1103,6 +1099,7 @@ footer .container .footer-footer .social>i:not(:last-child) {
 }
 
 @media (max-width: 991px) {
+
     section,
     header,
     footer {
