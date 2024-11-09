@@ -224,7 +224,7 @@ header .container nav>ul>li:first-of-type>a::after {
 
 .landing-page {
     height: calc(100vh - 84px);
-    background: url(/imgs/main-bg.jpg) center center no-repeat;
+    background: url("/imgs/main-bg.jpg") center center no-repeat;
     background-size: cover;
     position: relative;
     display: flex;
@@ -324,10 +324,17 @@ header .container nav>ul>li:first-of-type>a::after {
 
 /* End Of Landing Page */
 
+.services,
+.works,
+.testimonial,
+.newsletter,
+.questions,
+.blog {
+    margin-bottom: 120px;
+}
 
 .services {
     margin-top: 70px;
-    margin-bottom: 120px;
 }
 
 .container .main-heading {
@@ -424,10 +431,6 @@ header .container nav>ul>li:first-of-type>a::after {
 
 /* End Of Services */
 
-.works {
-    margin-bottom: 120px;
-}
-
 .works .container .works-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
@@ -516,10 +519,6 @@ header .container nav>ul>li:first-of-type>a::after {
 
 /* End Of How Bridge  */
 
-.testimonial {
-    margin-bottom: 120px;
-}
-
 .testimonial .container .rev-container {
     display: flex;
     gap: 20px;
@@ -592,10 +591,6 @@ header .container nav>ul>li:first-of-type>a::after {
 }
 
 /* End Of Testimonial */
-
-.newsletter {
-    margin-bottom: 120px;
-}
 
 .newsletter .container {
     border-radius: 25px;
@@ -704,11 +699,6 @@ header .container nav>ul>li:first-of-type>a::after {
 }
 
 /* End Of Newsletter */
-
-
-.questions {
-    margin-bottom: 120px;
-}
 
 .questions .container {
     display: flex;
@@ -822,10 +812,6 @@ header .container nav>ul>li:first-of-type>a::after {
 }
 
 /* End OF Questions */
-
-.blog {
-    margin-bottom: 120px;
-}
 
 .blog .container .post-container {
     display: grid;
