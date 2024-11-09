@@ -19,10 +19,6 @@
     font-weight: 700;
 }
 
-.roboto-black {
-    font-weight: 900;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -177,7 +173,7 @@ header .container nav>ul>li:first-of-type>a::after {
 
 .landing-page {
     height: calc(100vh - 84px);
-    background: url("imgs/main-bg.jpg") center center no-repeat;
+    background: url(imgs/main-bg.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
     display: flex;
@@ -1152,7 +1148,7 @@ footer .container .footer-footer .social>i:not(:last-child) {
     }
 
     .services .serv-cards .cols .card:not(:last-of-type) {
-        margin-bottom: 0;
+        margin-bottom: 20px;
     }
 
     .works .container .works-cards {
